@@ -1,0 +1,18 @@
+{
+"language": "Latviešu",
+"choose_output": "Izvēlēties izvades mapi",
+"output_folder": "Izvades mape",
+"remove_folders": "Noņemt atlasītās mapes",
+"generate": "Ģenerēt",
+"success": "Izveidots {count} dziesmu saraksts!\nFails tracklist.txt saglabāts.",
+"error_input": "Nav atlasītas ievades mapes.",
+"error_output": "Nav atlasītas izvades mapes.",
+"about_title": "Par programmu",
+"about_text": "Šī programma nejauši izveido mūzikas blokus no atlasītajām mapēm.\n\n1. Velciet vairākas mapes ar dziesmām uz sarakstu.\n2. Programma izveidos blokus pēc maksimālā dziesmu skaita starp tām.\n3. No katras mapes nejauši tiek atlasīta dziesma uz bloku (ja nav pietiekami daudz, tad ar atkārtojumiem, kas atzīmēti ar *).\n4. Atlasiet mapi, kurā saglabāt rezultātu.\n5. Programma izveidos sakārtotas dziesmas un failu tracklist.txt.\n\nProgrammu izveidoja džemvrots, pamatojoties uz gijelie ideju.\n2025.",
+"title": "Dziesmu nejaušinātājs",
+"drag_here": "Velciet mapes šeit:",
+"not_selected": "nav atlasīts",
+"success_title": "Veiksmīgi",
+"menu_help": "Palīdzība",
+"menu_language": "Valodas"
+}

@@ -1,0 +1,18 @@
+{
+  "language": "English",
+  "choose_output": "Choose output folder",
+  "output_folder": "Output folder",
+  "remove_folders": "Remove selected folders",
+  "generate": "Generate",
+  "success": "List of {count} tracks created!\nFile tracklist.txt saved.",
+  "error_input": "No input folders selected.",
+  "error_output": "No output folder selected.",
+  "about_title": "About",
+  "about_text": "This program randomly creates music blocks from selected folders.\n\n1. Drag several folders with tracks to the list.\n2. The program will create blocks by the maximum number of tracks among them.\n3. A track is randomly selected from each folder to the block (if there are not enough, then with repeats marked with *).\n4. Select the folder where to save the result.\n5. The program will create ordered tracks and a tracklist.txt file.\n\nThe program was created by dzhemvrot based on an idea by gijelie.\n2025.",
+  "title": "Song Randomiser",
+  "drag_here": "Drag folders here:",
+  "not_selected": "not selected",
+  "success_title": "Success",
+  "menu_help": "Help",
+  "menu_language": "Languages"
+}
