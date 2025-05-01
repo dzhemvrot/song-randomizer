@@ -13,6 +13,8 @@ current_lang_code = "ru"  # язык по умолчанию
 input_folders = []
 output_folder = ""
 
+# === Definitions ===
+
 def load_locales():
     global locales, current_locale, current_lang_code
     locales.clear()
@@ -116,7 +118,7 @@ def generate_playlist():
             random.shuffle(tracks)
             for t in tracks:
                 full_list.append(t)
-                flags.append(len(full_list) >= len(original))
+                flags.append(len(full_list) > len(original))
                 if len(full_list) >= max_tracks:
                     break
         filled_tracks[folder] = full_list[:max_tracks]
@@ -152,18 +154,18 @@ def generate_playlist():
         current_locale.get("success", "Список из {count} треков создан!\nФайл tracklist.txt записан.").format(count=track_counter - 1)
     )
 
-# === Интерфейс ===
+# === Interface ===
 root = TkinterDnD.Tk()
 root.title("Рандомайзер песен")
 root.geometry("700x500")
 
-# Меню
+# Menubar
 menubar = tk.Menu(root)
 load_locales()
-build_menus()  # вместо ручного добавления меню
+build_menus()
 
 
-# Основной фрейм
+# Mainframe
 frame = tk.Frame(root, padx=10, pady=10)
 frame.pack(fill=tk.BOTH, expand=True)
 
