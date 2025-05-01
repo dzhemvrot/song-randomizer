@@ -191,4 +191,9 @@ generate_button = tk.Button(frame, text="Сгенерировать", command=ge
 generate_button.pack(pady=10)
 
 update_ui_texts()
+
+try:
+    root.iconbitmap("icon.ico")
+except:
+    pass
 root.mainloop()
